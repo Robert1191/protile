@@ -80,7 +80,7 @@
         top: 0px;
         background: #ffffff00;
         border-color: #ffffff00;
-        color: #002A46;
+        color: #1476c1;
         font-size: 20px;
         width:60px;
         height:100%;
@@ -103,8 +103,16 @@
         color:white;
     }
 
+
+    .mainMenuBar hr{
+        border-bottom: solid #1476c1;
+        border-width: 1px;
+        width: calc(100% - 120px);
+    }
+
     .mainMenuBar, .responsiveMainMenuBar, .footer {
-        background: #d4eff6;
+        /*background: #d4eff6;*/
+        background: #fdfdfd;
     }
 
     .footer {
@@ -449,6 +457,9 @@
         width:500px;
     }
 
+    .mainMenuBar hr{
+        width: calc(100% - 50px);
+    }
 }
 
 @media screen and (max-width: 500px) {
@@ -542,6 +553,9 @@
             left: 70vw;
     }
 
+    .mainMenuBar hr{
+        width: calc(100% - 20px);
+    }
 }
 
 /*@media screen and (max-width: 500px) {
