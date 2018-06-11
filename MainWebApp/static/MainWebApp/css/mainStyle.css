@@ -311,6 +311,11 @@
     .modal-footer{
         background: white;
     }
+
+    #galleryView, #galleryView div{
+        width:100%;
+        height: auto !important;
+    }
 }
 
 
