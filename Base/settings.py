@@ -27,6 +27,11 @@ DEBUG = True
 
 ALLOWED_HOSTS = ["*"]
 
+EMAIL_HOST = 'smtp.mailgun.org'
+EMAIL_HOST_USER = 'postmaster@sandboxff3cebb76e78493cb4de8a19f42b5137.mailgun.org'
+EMAIL_HOST_PASSWORD = '96fbbb7642264d329284c3040720f132-b6183ad4-43432fa9'
+EMAIL_PORT = 587
+EMAIL_USE_TLS = True
 
 # Application definition
 

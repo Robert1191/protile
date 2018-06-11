@@ -1,0 +1,562 @@
+/*----------------------------------------------------------------------------------------------------------------------------------------------*/
+/*----------------------------------------------------------------------------------------------------------------------------------------------*/
+/*-------------------------------------------------------------COMMON USE SECTIONS--------------------------------------------------------------*/
+/*----------------------------------------------------------------------------------------------------------------------------------------------*/
+/*----------------------------------------------------------------------------------------------------------------------------------------------*/
+
+@media screen and (min-width: 20px) {
+
+    .h1, .h2, .h3, .h4, .h5, .h6, p, input, textarea, a, .submitBtn, .modal-header h2, ::placeholder{
+            font-family: Candara;
+            color: #252122;
+    }
+
+    .h1{font-size:36px;}
+    .h2, .modal-header h2{font-size:30px;}
+    .h3{font-size:24px;}
+    .h4, input, textarea, .buttonSection a{font-size:20px;}
+    .h5, p, .submitBtn {font-size:18px;}
+    .h6{font-size:16px;}
+
+    ::placeholder{
+        color: #9c9c9c;
+        visibility:hidden;
+    }
+
+    .loadingBackground, #hiddenLayer{
+            position:fixed;
+            width:100%;
+            height:100%;
+            background: #0000004a;
+            z-index: 2;
+            top: 0px;
+            text-align: center;
+            visibility: hidden;
+    }
+
+
+    .loadingBackground div:first-child {
+              border: 16px solid #ffffff00;
+              border-top: 16px solid #0f79b5;
+              border-bottom: 16px solid white;
+              border-radius: 50%;
+              width: 120px;
+              height: 120px;
+              -webkit-animation: spin 2s linear infinite;
+              animation: spin 2s linear infinite;
+              position: fixed;
+              margin-top: -120px;
+              margin-left: -120px;
+              left: 55vw;
+              top: 55vh;
+        }
+
+    .loadingBackground div:nth-child(2) {
+            position: fixed;
+            width: auto;
+            left: 55vw;
+            top: 55vh;
+            margin-left: -120px;
+    }
+
+    .loadingBackground div span {
+        -webkit-animation: unset;
+         animation: unset;
+    }
+
+    @-webkit-keyframes spin {
+      0% { -webkit-transform: rotate(0deg); }
+      100% { -webkit-transform: rotate(360deg); }
+    }
+
+    @keyframes spin {
+      0% { transform: rotate(0deg); }
+      100% { transform: rotate(360deg); }
+    }
+
+    #hiddenMenuButton, #hiddenMenuButton:hover, #closeMenuButton, #closeMenuButton:hover {
+        cursor: pointer;
+        position: absolute;
+        top: 0px;
+        background: #ffffff00;
+        border-color: #ffffff00;
+        color: #002A46;
+        font-size: 20px;
+        width:60px;
+        height:100%;
+        display: grid;
+        align-items: center;
+    }
+
+
+    #hiddenMenuButton, #hiddenMenuButton:hover {
+        left: 0px;
+    }
+
+    #closeMenuButton, #closeMenuButton:hover {
+        right: 0px;
+    }
+
+
+    .mainBtn:hover, .mainBtnSelected{
+        background: #1476c1;
+        color:white;
+    }
+
+    .mainMenuBar, .responsiveMainMenuBar, .footer {
+        background: #d4eff6;
+    }
+
+    .footer {
+        bottom:0px;
+        height:auto !important;
+        width:100%;
+        margin-top:30px;
+        text-align: center;
+        display:table;
+    }
+
+    .footer > div{
+        margin-top:30px;
+        margin-bottom:30px;
+    }
+
+    .mainMenuBar, .responsiveMainMenuBar{
+        position: fixed;
+        z-index: 1;
+        top: 0;
+        height: 120px;
+        width: 100%;
+        left: 0;
+    }
+
+    .logoSection{
+        text-align: center;
+    }
+
+    .logoSection, .responsiveLogoSection{
+        height:100%;
+        width:300px;
+        margin-left: 60px;
+        float: left;
+    }
+
+    .logoSection a img, .responsiveLogoSection a img{
+        width: 100%;
+        height: 100%;
+    }
+
+    .buttonSection a{
+        text-align: center;
+        text-decoration: none;
+    }
+
+     .mainContent{
+        height: auto !important;
+        position: absolute;
+        width:100%;
+    }
+
+    .contentDetail{
+        top: 0;
+        bottom: 100px;
+        margin-left: 60px;
+        margin-right: 60px;
+    }
+
+    #contact, #mapLocation{
+        margin-top:30px;
+    }
+
+    #contact{
+         height: auto !important;
+    }
+    #emailContact, #contactDetails, #mapLocation{
+        height: 800px;
+        position: static;
+    }
+
+    #emailContact{
+        border-color: #f5f5f5;
+        border-width: 2px;
+    }
+
+    #mapLocation{
+        width: 100%;
+    }
+
+    .formGroupHalf{
+        width:45%;
+        height:200px;
+        position:relative;
+    }
+
+    .formGroupFull{
+        width:100%;
+        height:450px;
+        float: left;
+        position:relative;
+    }
+
+    .formGroupHalf div, .formGroupFull div{
+        height:30px;
+    }
+
+    .formGroupHalf input, .formGroupFull textarea{
+        width:100%;
+        background: #f5f5f5;
+        border-style: none;
+    }
+
+    .formGroupHalf input{
+        height:40px;
+    }
+
+    .formGroupFull textarea{
+        height:400px;
+        margin-bottom:30px;
+        resize: none;
+    }
+
+    #contactDetails div div:first-child h3{
+        color:#1476c1;
+        font-weight: bold;
+    }
+
+    .submitBtn{
+        text-align: center;
+        text-decoration: none;
+        vertical-align: middle;
+        color: white;
+        position: relative;
+        background: #1476c1;
+        border: none;
+        top: 30px;
+        width:auto !important;
+        height: 40px;
+    }
+
+    #socialMediaSection{
+        font-size: 25px;
+        position: relative;
+        width: 100%;
+    }
+
+    .fa, .fa:hover {
+        width: 20px;
+        text-align: left;
+        text-decoration: none;
+        bottom: 0px;
+        margin-right: 15px;
+        display: unset !important;
+    }
+
+    .fa:hover {
+        color: #1476c1;
+    }
+
+    /* The Modal (background) */
+    .modal {
+        display: none; /* Hidden by default */
+        position: fixed; /* Stay in place */
+        z-index: 1; /* Sit on top */
+        padding-top: 100px; /* Location of the box */
+        left: 0;
+        top: 0;
+        width: 100%; /* Full width */
+        height: 100%; /* Full height */
+        overflow: auto; /* Enable scroll if needed */
+        background-color: rgb(0,0,0); /* Fallback color */
+        background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+    }
+
+    /* Modal Content */
+    .modal-content {
+        position: relative;
+        background-color: #fefefe;
+        margin: auto;
+        padding: 0;
+        border: 1px solid #888;
+        width: 550px;
+        box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2),0 6px 20px 0 rgba(0,0,0,0.19);
+        -webkit-animation-name: animatetop;
+        -webkit-animation-duration: 0.4s;
+        animation-name: animatetop;
+        animation-duration: 0.4s
+    }
+
+    /* Add Animation */
+    @-webkit-keyframes animatetop {
+        from {top:-300px; opacity:0}
+        to {top:0; opacity:1}
+    }
+
+    @keyframes animatetop {
+        from {top:-300px; opacity:0}
+        to {top:0; opacity:1}
+    }
+
+    .modal-header h2{
+        color: white;
+    }
+
+    .modal-footer{
+        background: white;
+    }
+}
+
+
+
+/*----------------------------------------------------------------------------------------------------------------------------------------------*/
+/*----------------------------------------------------------------------------------------------------------------------------------------------*/
+/*-------------------------------------------------------------RESPONSIVE SECTIONS--------------------------------------------------------------*/
+/*----------------------------------------------------------------------------------------------------------------------------------------------*/
+/*----------------------------------------------------------------------------------------------------------------------------------------------*/
+
+/*This style is for devices with screen width is larger than 1026px*/
+/*Suitable devices are desktop or tablets in landscape mode 1026*/
+
+@media screen and (min-width: 1000px) {
+
+    #hiddenMenuButton, #closeMenuButton{
+        visibility: hidden;
+    }
+
+
+    .buttonSection{
+        float: right;
+        margin-top: 10px;
+        height: 100px;
+        margin-right: 60px;
+    }
+
+    .buttonSection a{
+        width: 130px;
+        display: table-cell;
+        height: 100px;
+        vertical-align: middle;
+    }
+
+    .responsiveMainMenuBar{
+        display:none;
+    }
+
+     .mainContent{
+        top: 120px;
+        width:100%
+    }
+
+    #emailContact{
+        width: 60%;
+        float:left;
+        border-right-style: solid;
+    }
+    #emailContact > * {
+        margin-right: 30px;
+    }
+
+    #contactDetails{
+        width: 40%;
+        float:right;
+    }
+    #contactDetails > * {
+        margin-left: 30px;
+        margin-bottom: 60px;
+    }
+
+    #contact{
+         height: 800px !important;
+    }
+    #mapLocation{
+        top: 0px;
+    }
+
+
+}
+
+
+/*This style is for devices with screen width is up to 1025px*/
+/*Suitable devices are tablets 1025*/
+@media screen and (max-width: 999px) {
+
+    .h1{font-size:34px;}
+    .h2, .modal-header h2{font-size:28px;}
+    .h3{font-size:22px;}
+    .h4, input, textarea, .buttonSection a{font-size:20px;}
+    .h5, p, .submitBtn {font-size:16px;}
+    .h6{font-size:14px;}
+
+    .mainMenuBar .buttonSection{
+        display:none;
+    }
+
+    .mainMenuBar, .closeMenuButtonSection{
+        position:absolute;
+        height:72px;
+    }
+
+    .logoSection{
+        width: calc(100% - 60px);
+        right:0px;
+    }
+
+    .logoSection a img, .responsiveLogoSection a img{
+        width: 180px;
+        height: 100%;
+    }
+
+    .logoSection a img{
+        margin-left: -60px;
+    }
+
+    .responsiveMainMenuBar{
+        height: 100%;
+        width: 400px;
+        left: -400px;
+        z-index:3;
+        -webkit-transition: left 0.2s;
+    }
+    .closeMenuButtonSection{
+        width:100%;
+    }
+    .buttonSection{
+        width:100%;
+        height: auto !important;
+        margin-top:72px;
+    }
+
+    .buttonSection a{
+        width: 100%;
+        display: block;
+        font-size: 22px;
+        line-height: 72px;
+    }
+
+    .mainContent{
+        top: 72px;
+    }
+
+    .contentDetail{
+        margin-left:25px;
+        margin-right:25px;
+    }
+
+    #contactDetails{
+        height:450px;
+    }
+
+   .modal-content {
+        width:500px;
+    }
+
+}
+
+@media screen and (max-width: 500px) {
+
+    .h1{font-size:30px;}
+    .h2, .modal-header h2{font-size:24px;}
+    .h3{font-size:18px;}
+    .h4, input, textarea, .buttonSection a{font-size:16px;}
+    .h5, p, .submitBtn{font-size:12px;}
+    .h6{font-size:10px;}
+
+    ::placeholder{
+        visibility:visible;
+    }
+
+    .loadingBackground div:nth-child(n+1) {
+        left: 65vw;
+    }
+
+    .responsiveMainMenuBar{
+        width: 100%;
+        left: -100%;
+    }
+
+    .mainMenuBar, .closeMenuButtonSection{
+        height:48px;
+    }
+
+    .logoSection a img, .responsiveLogoSection a img{
+        width: 120px;
+    }
+
+    #hiddenMenuButton, #hiddenMenuButton:hover, #closeMenuButton, #closeMenuButton:hover {
+        font-size: 18px;
+        width:48px;
+    }
+    #hiddenMenuButton, #hiddenMenuButton:hover{
+        display: flex;
+    }
+
+    .buttonSection a{
+        font-size: 18px;
+        line-height: 48px;
+    }
+
+    .mainContent{
+        top: 48px;
+    }
+
+    .contentDetail{
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+
+    #mapLocation{
+        height:80vh;
+    }
+
+    .modal-content {
+        width:100%;
+    }
+
+    .formLabel{
+        display: none;
+    }
+
+    .formGroupFull{
+        height:400px;
+    }
+
+    .formGroupHalf {
+        width: 100%;
+        height: 90px;
+        margin-bottom: 30px;
+        display: grid;
+    }
+
+    .formGroupHalf input {
+        margin-bottom: 0px !important;
+    }
+
+    #contact, #contactDetails{
+        height:auto !important;
+    }
+
+    #emailContact{
+        height:750px;
+    }
+
+    .loadingBackground div:nth-child(2) {
+            left: 70vw;
+    }
+
+}
+
+/*@media screen and (max-width: 500px) {
+    .contentDetail{
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+}
+
+@media screen and (max-height: 1023px) {
+    .mainMenuBar{
+        height: 1024px;
+        overflow-y: auto;
+        position: absolute;
+    }
+
+}*/
+

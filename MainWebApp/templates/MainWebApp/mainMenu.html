@@ -1,10 +1,64 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="vi">
 <head>
-    <meta charset="UTF-8">
-    <title>Title</title>
+    {% load staticfiles %}
+    <link rel="shortcut icon" href="{% static 'MainWebApp/images/Icon.gif' %}" />
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="{% static 'MainWebApp/css/bootstrap.min.css' %}">
+    <link rel="stylesheet" href="{% static 'MainWebApp/css/mainStyle.css' %}">
+    <link rel="stylesheet" href="{% static 'MainWebApp/css/font-awesome.min.css' %}">
+    <h1 id="hiddenCurrentUrl" style="visibility: hidden"> {{ request.path }} </h1>
 </head>
 <body>
+
+
+{% include "MainWebApp/widgets/loadingBackground.html" %}
+<div class="mainMenuBar">
+     <div id="hiddenMenuButton" class="btn">
+      <span >&#9776;</span>
+
+    </div>
+    <div class="logoSection">
+
+        <a href="{% url 'index' %}" ><img src="{% static 'MainWebApp/images/logo.png' %}" ></a>
+
+    </div>
+
+    <div class="buttonSection">
+        <a class="mainBtn" href="{% url 'about' %}" >ABOUT</a>
+        <a class="mainBtn" href="{% url 'service' %}" selected="false">SERVICE</a>
+        <a class="mainBtn" href="{% url 'contact' %}" selected="false">CONTACT</a>
+    </div>
+</div>
+
+<div class="responsiveMainMenuBar">
+     <div class="closeMenuButtonSection">
+         <div id="closeMenuButton" class="  btn btn-default btn-lg">
+            <span >X</span></div>
+     </div>
+
+
+    <div class="buttonSection">
+        <a class="mainBtn" href="{% url 'about' %}" >ABOUT</a>
+        <a class="mainBtn" href="{% url 'service' %}" selected="false">SERVICE</a>
+        <a class="mainBtn" href="{% url 'contact' %}" selected="false">CONTACT</a>
+    </div>
+</div>
+
+<div class="mainContent">
+
+  {% block content %}
+    {% endblock %}
+{% include "MainWebApp/widgets/footer.html" %}
+</div>
+
+<div id="hiddenLayer" >
+
+    </div>
+
+
+<script language="JavaScript" type="text/javascript" src="{% static 'MainWebApp/jquery/jquery.min.js' %}"></script>
+<script language="JavaScript" type="text/javascript" src="{% static 'MainWebApp/jquery/mainFunc.js' %}"></script>
 
 </body>
 </html>
