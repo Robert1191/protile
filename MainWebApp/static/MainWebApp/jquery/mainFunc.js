@@ -119,9 +119,29 @@ $(document).ready(function(){
 
         /* Change page titles and background*/
         changePageTitle("Service - Protile")
+
+        createGallery("Gallery of works");
     }
 
+    function createGallery(title){
+        if(title == ""){
+            $('.galleryTitle').css("display", "none");
+        }else{
+            $('.galleryTitle')[0].innerHTML = '<h1 class="h1 galleryTitle">' + title + '</h1>';
+        }
 
+        for (i = 1; i < 4; i++) {
+             $( ".galleryList" ).append( "<img class='slideshowIndicatorsGalleryItem' src='/static/MainWebApp/images/Works/" + i + ".jpg' />" );
+             if(i == 1){
+                $( ".slideshowIndicatorsGalleryItem" ).css("display", "block");
+             }
+        }
+
+
+
+    }
+
+    /* Other function*/
     function createPopUpMessage(typeOfMessage, title, message){
          $(".modal").css("display", "block");
          switch (typeOfMessage) {
