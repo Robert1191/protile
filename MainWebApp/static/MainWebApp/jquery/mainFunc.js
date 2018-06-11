@@ -130,11 +130,12 @@ $(document).ready(function(){
             $('.galleryTitle')[0].innerHTML = '<h1 class="h1 galleryTitle">' + title + '</h1>';
         }
 
-        for (i = 1; i < 4; i++) {
-             $( ".galleryList" ).append( "<img class='slideshowIndicatorsGalleryItem' src='/static/MainWebApp/images/Works/" + i + ".jpg' />" );
+        for (i = 3; i > 0; i--) {
+            var display = ' ';
              if(i == 1){
-                $( ".slideshowIndicatorsGalleryItem" ).css("display", "block");
+                display = display + 'style="display:block;"';
              }
+             $( ".galleryList" ).prepend( "<img class='slideshowIndicatorsGalleryItem' src='/static/MainWebApp/images/Works/" + i + ".jpg'"+ display +" />" );
         }
 
 

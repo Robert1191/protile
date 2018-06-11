@@ -3,15 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="ffa558b9-e26a-41a2-86f6-cf0ee2932a63" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/MainWebApp/static/MainWebApp/css/mainStyle.css" beforeDir="false" afterPath="$PROJECT_DIR$/MainWebApp/static/MainWebApp/css/mainStyle.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MainWebApp/static/MainWebApp/images/Works/01.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/MainWebApp/static/MainWebApp/images/Works/02.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/MainWebApp/static/MainWebApp/images/Works/03.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/MainWebApp/static/MainWebApp/images/Works/04.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/MainWebApp/static/MainWebApp/images/Works/05.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/MainWebApp/static/MainWebApp/images/Works/06.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/MainWebApp/static/MainWebApp/images/Works/07.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/MainWebApp/static/MainWebApp/images/Works/08.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/MainWebApp/static/MainWebApp/images/Works/09.jpg" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/MainWebApp/static/MainWebApp/jquery/mainFunc.js" beforeDir="false" afterPath="$PROJECT_DIR$/MainWebApp/static/MainWebApp/jquery/mainFunc.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/MainWebApp/templates/MainWebApp/widgets/slideshowIndicatorsGallery.html" beforeDir="false" afterPath="$PROJECT_DIR$/MainWebApp/templates/MainWebApp/widgets/slideshowIndicatorsGallery.html" afterDir="false" />
     </list>
@@ -28,23 +19,9 @@
         <entry file="file://$PROJECT_DIR$/MainWebApp/templates/MainWebApp/mainMenu.html">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="51">
-              <caret line="3" column="26" lean-forward="true" selection-start-line="3" selection-start-column="4" selection-end-line="3" selection-end-column="26" />
+              <caret line="3" column="26" selection-start-line="3" selection-start-column="4" selection-end-line="3" selection-end-column="26" />
               <folding>
                 <element signature="n#style#0;n#h1#0;n#head#0;n#html#0;n#!!top" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="mainStyle.css" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/MainWebApp/static/MainWebApp/css/mainStyle.css">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="455">
-              <caret line="322" column="8" selection-start-line="322" selection-start-column="8" selection-end-line="322" selection-end-column="22" />
-              <folding>
-                <element signature="e#0#12700#0" />
-                <element signature="e#0#12700#0" />
-                <element signature="e#0#12700#0" />
               </folding>
             </state>
           </provider>
@@ -54,29 +31,39 @@
         <entry file="file://$PROJECT_DIR$/MainWebApp/templates/MainWebApp/service.html">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="153">
-              <caret line="9" column="14" lean-forward="true" selection-start-line="9" selection-start-column="14" selection-end-line="9" selection-end-column="14" />
+              <caret line="9" column="14" selection-start-line="9" selection-start-column="14" selection-end-line="9" selection-end-column="14" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="slideshowIndicatorsGallery.html" pinned="false" current-in-tab="false">
+      <file leaf-file-name="mainStyle.css" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/MainWebApp/static/MainWebApp/css/mainStyle.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="476">
+              <caret line="559" column="28" selection-start-line="559" selection-start-column="28" selection-end-line="559" selection-end-column="28" />
+              <folding>
+                <element signature="e#0#13717#0" />
+                <element signature="e#0#12934#0" />
+                <element signature="e#0#12934#0" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="slideshowIndicatorsGallery.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/MainWebApp/templates/MainWebApp/widgets/slideshowIndicatorsGallery.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="119">
-              <caret line="7" column="107" lean-forward="true" selection-start-line="5" selection-start-column="8" selection-end-line="7" selection-end-column="107" />
+            <state relative-caret-position="187">
+              <caret line="11" column="10" selection-start-line="11" selection-start-column="10" selection-end-line="11" selection-end-column="46" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="mainFunc.js" pinned="false" current-in-tab="true">
+      <file leaf-file-name="mainFunc.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/MainWebApp/static/MainWebApp/jquery/mainFunc.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="540">
-              <caret line="135" column="76" selection-start-line="135" selection-start-column="76" selection-end-line="135" selection-end-column="76" />
-              <folding>
-                <element signature="e#0#4252#0" />
-                <element signature="e#0#4252#0" />
-              </folding>
+            <state relative-caret-position="421">
+              <caret line="137" column="43" selection-start-line="137" selection-start-column="43" selection-end-line="137" selection-end-column="43" />
             </state>
           </provider>
         </entry>
@@ -84,7 +71,7 @@
       <file leaf-file-name="views.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/MainWebApp/views.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="564">
+            <state relative-caret-position="534">
               <caret line="37" column="99" selection-start-line="37" selection-start-column="99" selection-end-line="37" selection-end-column="99" />
               <folding>
                 <element signature="e#24#63#0" expanded="true" />
@@ -123,9 +110,9 @@
         <option value="$PROJECT_DIR$/Base/settings.py" />
         <option value="$PROJECT_DIR$/MainWebApp/templates/MainWebApp/widgets/galleryView.html" />
         <option value="$PROJECT_DIR$/MainWebApp/templates/MainWebApp/service.html" />
+        <option value="$PROJECT_DIR$/MainWebApp/static/MainWebApp/jquery/mainFunc.js" />
         <option value="$PROJECT_DIR$/MainWebApp/templates/MainWebApp/widgets/slideshowIndicatorsGallery.html" />
         <option value="$PROJECT_DIR$/MainWebApp/static/MainWebApp/css/mainStyle.css" />
-        <option value="$PROJECT_DIR$/MainWebApp/static/MainWebApp/jquery/mainFunc.js" />
       </list>
     </option>
   </component>
@@ -209,6 +196,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="settings.editor.selected.configurable" value="preferences.sourceCode" />
   </component>
   <component name="RunDashboard">
@@ -238,18 +226,17 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.12118019" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
+      <window_info anchor="bottom" id="Run" order="2" />
       <window_info anchor="bottom" id="Version Control" order="9" />
       <window_info anchor="bottom" id="Python Console" order="7" />
-      <window_info anchor="bottom" id="Run" order="2" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Terminal" order="8" visible="true" weight="0.32897604" />
-      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="8" visible="true" weight="0.32897604" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -270,6 +257,59 @@
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/MainWebApp/templates/MainWebApp/mainMenu.html">
       <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="3" column="26" lean-forward="true" selection-start-line="3" selection-start-column="4" selection-end-line="3" selection-end-column="26" />
+          <folding>
+            <element signature="n#style#0;n#h1#0;n#head#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MainWebApp/static/MainWebApp/css/mainStyle.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="5474">
+          <caret line="322" column="8" selection-start-line="322" selection-start-column="8" selection-end-line="322" selection-end-column="22" />
+          <folding>
+            <element signature="e#0#13717#0" />
+            <element signature="e#0#12934#0" />
+            <element signature="e#0#12934#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MainWebApp/templates/MainWebApp/service.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="9" column="14" lean-forward="true" selection-start-line="9" selection-start-column="14" selection-end-line="9" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MainWebApp/templates/MainWebApp/widgets/slideshowIndicatorsGallery.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="7" column="107" lean-forward="true" selection-start-line="5" selection-start-column="8" selection-end-line="7" selection-end-column="107" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MainWebApp/views.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="493">
+          <caret line="37" column="99" selection-start-line="37" selection-start-column="99" selection-end-line="37" selection-end-column="99" />
+          <folding>
+            <element signature="e#24#63#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MainWebApp/static/MainWebApp/jquery/mainFunc.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2295">
+          <caret line="135" column="76" selection-start-line="135" selection-start-column="76" selection-end-line="135" selection-end-column="76" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MainWebApp/templates/MainWebApp/mainMenu.html">
+      <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="714">
           <caret line="42" column="61" selection-start-line="42" selection-start-column="61" selection-end-line="42" selection-end-column="61" />
           <folding>
@@ -283,9 +323,9 @@
         <state relative-caret-position="7888">
           <caret line="464" column="37" selection-start-line="464" selection-start-column="37" selection-end-line="464" selection-end-column="37" />
           <folding>
-            <element signature="e#0#12700#0" />
-            <element signature="e#0#12700#0" />
-            <element signature="e#0#12700#0" />
+            <element signature="e#0#13717#0" />
+            <element signature="e#0#12934#0" />
+            <element signature="e#0#12934#0" />
           </folding>
         </state>
       </provider>
@@ -294,10 +334,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1836">
           <caret line="108" column="137" selection-start-line="108" selection-start-column="137" selection-end-line="108" selection-end-column="137" />
-          <folding>
-            <element signature="e#0#4252#0" />
-            <element signature="e#0#4252#0" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -315,18 +351,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="170">
           <caret line="10" selection-start-line="10" selection-end-line="11" />
-          <folding>
-            <element signature="n#div#0;n#div#0;n#!!top" />
-            <element signature="n#form#0;n#div#0;n#div#0;n#div#0;n#!!top" />
-            <element signature="n#style#0;n#div#0;n#form#0;n#div#0;n#div#0;n#div#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#span#0;n#h4#0;n#div#0;n#div#0;n#form#0;n#div#0;n#div#0;n#div#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#input#0;n#div#0;n#form#0;n#div#0;n#div#0;n#div#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#span#0;n#h4#0;n#div#1;n#div#0;n#form#0;n#div#0;n#div#0;n#div#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#1;n#form#0;n#div#0;n#div#0;n#div#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#input#0;n#div#1;n#form#0;n#div#0;n#div#0;n#div#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#3;n#form#0;n#div#0;n#div#0;n#div#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#iframe#0;n#div#1;n#div#0;n#!!top" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -389,18 +413,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="170">
           <caret line="10" selection-start-line="10" selection-end-line="11" />
-          <folding>
-            <element signature="n#div#0;n#div#0;n#!!top" />
-            <element signature="n#form#0;n#div#0;n#div#0;n#div#0;n#!!top" />
-            <element signature="n#style#0;n#div#0;n#form#0;n#div#0;n#div#0;n#div#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#span#0;n#h4#0;n#div#0;n#div#0;n#form#0;n#div#0;n#div#0;n#div#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#input#0;n#div#0;n#form#0;n#div#0;n#div#0;n#div#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#span#0;n#h4#0;n#div#1;n#div#0;n#form#0;n#div#0;n#div#0;n#div#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#1;n#form#0;n#div#0;n#div#0;n#div#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#input#0;n#div#1;n#form#0;n#div#0;n#div#0;n#div#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#3;n#form#0;n#div#0;n#div#0;n#div#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#iframe#0;n#div#1;n#div#0;n#!!top" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -431,12 +443,6 @@
           <caret line="8" column="14" selection-start-line="8" selection-start-column="14" selection-end-line="8" selection-end-column="14" />
         </state>
       </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/MainWebApp/back_end/emailServices.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/MainWebApp/back_end/forms.py">
-      <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/MainWebApp/templates/MainWebApp/widgets/messagePopUp.html">
       <provider selected="true" editor-type-id="text-editor">
@@ -477,34 +483,36 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="119">
           <caret line="7" column="52" selection-start-line="7" selection-end-line="7" selection-end-column="52" />
-          <folding>
-            <element signature="n#div#0;n#div#0;n#!!top" />
-            <element signature="n#form#0;n#div#0;n#div#0;n#div#0;n#!!top" />
-            <element signature="n#style#0;n#div#0;n#form#0;n#div#0;n#div#0;n#div#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#span#0;n#h4#0;n#div#0;n#div#0;n#form#0;n#div#0;n#div#0;n#div#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#input#0;n#div#0;n#form#0;n#div#0;n#div#0;n#div#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#span#0;n#h4#0;n#div#1;n#div#0;n#form#0;n#div#0;n#div#0;n#div#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#1;n#form#0;n#div#0;n#div#0;n#div#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#input#0;n#div#1;n#form#0;n#div#0;n#div#0;n#div#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#3;n#form#0;n#div#0;n#div#0;n#div#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#iframe#0;n#div#1;n#div#0;n#!!top" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/MainWebApp/templates/MainWebApp/mainMenu.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="51">
-          <caret line="3" column="26" lean-forward="true" selection-start-line="3" selection-start-column="4" selection-end-line="3" selection-end-column="26" />
+          <caret line="3" column="26" selection-start-line="3" selection-start-column="4" selection-end-line="3" selection-end-column="26" />
           <folding>
             <element signature="n#style#0;n#h1#0;n#head#0;n#html#0;n#!!top" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/MainWebApp/templates/MainWebApp/service.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="9" column="14" selection-start-line="9" selection-start-column="14" selection-end-line="9" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MainWebApp/static/MainWebApp/jquery/mainFunc.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="421">
+          <caret line="137" column="43" selection-start-line="137" selection-start-column="43" selection-end-line="137" selection-end-column="43" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/MainWebApp/views.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="564">
+        <state relative-caret-position="534">
           <caret line="37" column="99" selection-start-line="37" selection-start-column="99" selection-end-line="37" selection-end-column="99" />
           <folding>
             <element signature="e#24#63#0" expanded="true" />
@@ -512,40 +520,22 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/MainWebApp/templates/MainWebApp/widgets/slideshowIndicatorsGallery.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="7" column="107" lean-forward="true" selection-start-line="5" selection-start-column="8" selection-end-line="7" selection-end-column="107" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/MainWebApp/templates/MainWebApp/service.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="9" column="14" lean-forward="true" selection-start-line="9" selection-start-column="14" selection-end-line="9" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/MainWebApp/static/MainWebApp/css/mainStyle.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="455">
-          <caret line="322" column="8" selection-start-line="322" selection-start-column="8" selection-end-line="322" selection-end-column="22" />
+        <state relative-caret-position="476">
+          <caret line="559" column="28" selection-start-line="559" selection-start-column="28" selection-end-line="559" selection-end-column="28" />
           <folding>
-            <element signature="e#0#12700#0" />
-            <element signature="e#0#12700#0" />
-            <element signature="e#0#12700#0" />
+            <element signature="e#0#13717#0" />
+            <element signature="e#0#12934#0" />
+            <element signature="e#0#12934#0" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/MainWebApp/static/MainWebApp/jquery/mainFunc.js">
+    <entry file="file://$PROJECT_DIR$/MainWebApp/templates/MainWebApp/widgets/slideshowIndicatorsGallery.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="540">
-          <caret line="135" column="76" selection-start-line="135" selection-start-column="76" selection-end-line="135" selection-end-column="76" />
-          <folding>
-            <element signature="e#0#4252#0" />
-            <element signature="e#0#4252#0" />
-          </folding>
+        <state relative-caret-position="187">
+          <caret line="11" column="10" selection-start-line="11" selection-start-column="10" selection-end-line="11" selection-end-column="46" />
         </state>
       </provider>
     </entry>
