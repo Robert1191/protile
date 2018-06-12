@@ -2,7 +2,6 @@
 $(document).ready(function(){
     var staticLink = "../static/MainWebApp/";
 
-
     var screenWidth = $( document ).width();
     var isHiddenMenuOpen = false;
     $('#hiddenMenuButton').on( "click", function(e) {
@@ -120,27 +119,30 @@ $(document).ready(function(){
         /* Change page titles and background*/
         changePageTitle("Service - Protile")
 
-        createGallery("Gallery of works");
+        createGallery("Gallery of works", 1 , 3);
     }
 
-    function createGallery(title){
+    function createGallery(title, min, max){
+
         if(title == ""){
             $('.galleryTitle').css("display", "none");
         }else{
             $('.galleryTitle')[0].innerHTML = '<h1 class="h1 galleryTitle">' + title + '</h1>';
         }
 
-        for (i = 3; i > 0; i--) {
+        for (i = min; i <= max; i++) {
             var display = ' ';
-             if(i == 1){
+            var indicatorClassName = "indicatorItem'";
+             if(i == currentGalleryItemSelected){
                 display = display + 'style="display:block;"';
+                indicatorClassName = "indicatorItemSelected'" ;
              }
-             $( ".galleryList" ).prepend( "<img class='slideshowIndicatorsGalleryItem' src='/static/MainWebApp/images/Works/" + i + ".jpg'"+ display +" />" );
+             indicatorClassName = indicatorClassName + " onclick='refreshGalleryView(" + i + ")'" ;
+             $( ".galleryList" ).append( "<img class='slideshowIndicatorsGalleryItem' src='"+ staticLink +"images/Works/" + i + ".jpg'"+ display +" />" );
+             $( ".indicatorSection" ).append("<span class='" + indicatorClassName + " ></span>");
         }
-
-
-
     }
+
 
     /* Other function*/
     function createPopUpMessage(typeOfMessage, title, message){

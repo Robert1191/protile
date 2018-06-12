@@ -3,13 +3,10 @@
     <h1 class="h1 galleryTitle"></h1>
 
     <div class="galleryList">
-        <a class="prevBtn" >&#10094;</a>
-        <a class="nextBtn" >&#10095;</a>
+        <a class="slideshowIndicatorBtn left" onclick="galleryViewItemBtnChange(-1)">&#10094;</a>
+        <a class="slideshowIndicatorBtn right" onclick="galleryViewItemBtnChange(+1)">&#10095;</a>
 
         <div class="indicatorSection">
-          <span class="indicatorItem" ></span>
-          <span class="indicatorItem" ></span>
-          <span class="indicatorItem" ></span>
         </div>
     </div>
 
@@ -17,8 +14,118 @@
 
  </div>
 
+<script>
+    var currentGalleryItemSelected = 1;
+
+
+    function galleryViewItemBtnChange(n){
+            refreshGalleryView(currentGalleryItemSelected += n);
+    }
+
+
+    function refreshGalleryView(n){
+        numberOfItem = $( ".galleryList img" ).length;
+
+        if(n > numberOfItem){
+            n = 1;
+        }
+
+        if (n < 1){
+            n = numberOfItem;
+        }
+
+        currentGalleryItemSelected = n
+
+
+        for (i = 1; i <= numberOfItem ; i++) {
+            display = "none";
+            indicatorItemClassName = "indicatorItem";
+
+           if(i == currentGalleryItemSelected){
+                display = "block";
+                indicatorItemClassName = "indicatorItemSelected";
+           }
+           ($( ".galleryList img" )[i - 1]).style.display = display;
+           ($( ".indicatorSection span" )[i - 1]).className = indicatorItemClassName;
+        }
+
+    }
+</script>
+
 <style>
-.mySlides {display:none}
-.w3-left, .w3-right, .w3-badge {cursor:pointer}
-.w3-badge {height:13px;width:13px;padding:0}
+
+@media screen and (min-width: 20px) {
+    #galleryView{
+        width:100%;
+        height: auto !important;
+        text-align: center;
+    }
+
+    .galleryList{
+        margin: auto;
+        width: 70%;
+        position: relative;
+        height: 80vh;
+        display: inline-flex;
+    }
+
+    .slideshowIndicatorsGalleryItem{
+        display: none;
+        max-height: 100%;
+        max-width: 100%;
+        margin: auto;
+    }
+
+    .slideshowIndicatorBtn, .slideshowIndicatorBtn:hover {
+      cursor: pointer;
+      position: absolute;
+      top: 50%;
+      width: auto;
+      padding: 10px;
+      margin-top: -24px;
+      color: #fff;
+      background: #252122;
+      font-weight: bold;
+      transition: 0.6s ease;
+      border-radius: 0 3px 3px 0;
+      text-decoration: none;
+    }
+
+    .slideshowIndicatorBtn:hover{
+        color: #717171;
+    }
+
+    .left{
+        left:0;
+    }
+
+    .right {
+      right: 0;
+    }
+
+    .indicatorSection{
+        position: absolute;
+        top: 100%;
+        width: 100%;
+        margin-top: -48px;
+        margin-bottom: 48px;
+    }
+
+    .indicatorItem, .indicatorItemSelected {
+      cursor: pointer;
+      height: 15px;
+      width: 15px;
+      margin: 0 2px;
+      background: #fff;
+      border: 1px solid #717171;
+      border-radius: 50%;
+      display: inline-block;
+      transition: background-color 0.6s ease;
+    }
+
+    .indicatorItem:hover, .indicatorItemSelected{
+        background: #717171;
+    }
+}
+
 </style>
