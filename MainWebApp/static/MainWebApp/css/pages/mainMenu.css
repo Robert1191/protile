@@ -7,7 +7,8 @@
 @media screen and (min-width: 20px) {
 
     .h1, .h2, .h3, .h4, .h5, .h6, p, input, textarea, a, .submitBtn, .messagePopUp-header h2, ::placeholder{
-            font-family: Candara;
+            /*font-family: Candara;*/
+            font-family: Trebuchet MS;
             color: #252122;
     }
 
@@ -65,6 +66,9 @@
 
 
     .mainMenuBar hr{
+        border-top:none;
+        border-left:none;
+        border-right:none;
         border-bottom: solid #1476c1;
         border-width: 1px;
         width: calc(100% - 120px);
@@ -175,6 +179,10 @@
 
     .mainMenuBar .buttonSection{
         display:none;
+    }
+
+    .mainMenuBar hr{
+        width: calc(100% - 50px);
     }
 
     .mainMenuBar, .closeMenuButtonSection{
