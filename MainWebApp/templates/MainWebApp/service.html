@@ -1,13 +1,35 @@
 {% extends "MainWebApp/mainMenu.html" %}
 
 {% block content %}
-{% load staticfiles %}
 <div class="contentDetail">
- <div style="background:red">
+ <div class="serviceDetails">
+  <h4 class="h4">Are you looking for a more affordable way to replace your carpeting with durable, easy-to-clean tiles? We can bring your kitchen, bathroom, and any tile project designs to life.
+   Our goal is to take your vision and make it a reality by offering a trust worthy, honest and reliable service.</h4>
 
+  <div class="serviceList " >
+      <h1 class="h1">We are experienced in installation in</h1>
+
+   <ul class="left">
+       <li class="h3">&#x2714; Bathroom</li>
+       <li class="h3">&#x2714; Kitchens</li>
+       <li class="h3">&#x2714; Hallways</li>
+     </ul>
+
+    <ul class="right" style="text-align:left">
+       <li class="h3">&#x2714; Bathroom</li>
+       <li class="h3">&#x2714; Kitchens</li>
+     </ul>
+  </div>
+
+
+  <h4 class="h4">I take the time to make sure the little things are done right because it’s the fine details that make all the difference on the finished project.
+   I do high end commercial or residential projects using top quality materials and proudly service all customers within a 100 km radius of Auckland.</h4>
  </div>
  {% include "MainWebApp/widgets/slideshowIndicatorsGallery.html" %}
 
 </div>
 
+{% load staticfiles %}
+<link rel="stylesheet" href="{% static 'MainWebApp/css/pages/service.css' %}">
 {% endblock %}
+

@@ -121,6 +121,17 @@
         margin-right: 60px;
     }
 
+    .left{
+        left:0;
+        float:left;
+        text-align: left;
+    }
+
+    .right {
+      right: 0;
+      float:right;
+      text-align: right;
+    }
 }
 
 

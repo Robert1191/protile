@@ -5,69 +5,28 @@
 /*----------------------------------------------------------------------------------------------------------------------------------------------*/
 
 @media screen and (min-width: 20px) {
-    #galleryView{
-        width:100%;
-        height: auto !important;
-        text-align: center;
-    }
-
-    .galleryList{
+    .serviceDetails{
         margin: auto;
         width: 70%;
         position: relative;
-        height: 80vh;
-        display: inline-flex;
-    }
+        text-align: center;
+     }
 
-    .slideshowIndicatorsGalleryItem{
-        display: none;
-        max-height: 100%;
-        max-width: 100%;
+     .serviceDetails > *, #galleryView{
+        margin-top:60px !important;
+     }
+
+     .serviceList{
+        width: auto;
+        height: auto;
+        display: table;
         margin: auto;
-    }
+     }
 
-    .slideshowIndicatorBtn, .slideshowIndicatorBtn:hover {
-      cursor: pointer;
-      position: absolute;
-      top: 50%;
-      width: auto;
-      padding: 10px;
-      margin-top: -24px;
-      color: #fff;
-      background: #252122;
-      font-weight: bold;
-      transition: 0.6s ease;
-      border-radius: 0 3px 3px 0;
-      text-decoration: none;
-    }
-
-    .slideshowIndicatorBtn:hover{
-        color: #717171;
-    }
-
-    .indicatorSection{
-        position: absolute;
-        top: 100%;
-        width: 100%;
-        margin-top: -48px;
-        margin-bottom: 48px;
-    }
-
-    .indicatorItem, .indicatorItemSelected {
-      cursor: pointer;
-      height: 15px;
-      width: 15px;
-      margin: 0 2px;
-      background: #fff;
-      border: 1px solid #717171;
-      border-radius: 50%;
-      display: inline-block;
-      transition: background-color 0.6s ease;
-    }
-
-    .indicatorItem:hover, .indicatorItemSelected{
-        background: #717171;
-    }
+     .serviceList ul {
+        width: 50%;
+        list-style-type: none;
+     }
 }
 
 
@@ -89,11 +48,14 @@
 /*This style is for devices with screen width is up to 1025px*/
 /*Suitable devices are tablets */
 @media screen and (max-width: 999px) {
-
-    .galleryList{
+    .serviceDetails{
         width: 100% !important;
-        height: 60vh !important;
-    }
+     }
+
+     .serviceDetails > *{
+        margin-top:30px;
+     }
+
 }
 
 /*This style is for devices with screen width is up to 500px*/
