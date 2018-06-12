@@ -98,7 +98,10 @@
 /*Suitable devices are tablets */
 @media screen and (max-width: 999px) {
 
-
+    .galleryList{
+        width: 100% !important;
+        height: 60vh !important;
+    }
 }
 
 /*This style is for devices with screen width is up to 500px*/
