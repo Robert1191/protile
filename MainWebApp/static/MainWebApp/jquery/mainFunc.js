@@ -50,7 +50,7 @@ $(document).ready(function(){
    /* Switch page function*/
     switch ($.trim($("#hiddenCurrentUrl").text())) {
         case '/':
-          index();
+          changePageTitle("Home - Protile")
           break;
 
         case '/about/':
@@ -119,10 +119,15 @@ $(document).ready(function(){
         /* Change page titles and background*/
         changePageTitle("Service - Protile")
 
-        createGallery("Gallery of works", 1 , 3);
+        createSlideshowIndicatorsGallery("Gallery of works", 1 , 3);
     }
 
-    function createGallery(title, min, max){
+
+
+
+    /*Create Functions*/
+
+    function createSlideshowIndicatorsGallery(title, min, max){
 
         if(title == ""){
             $('.galleryTitle').css("display", "none");
@@ -143,10 +148,8 @@ $(document).ready(function(){
         }
     }
 
-
-    /* Other function*/
     function createPopUpMessage(typeOfMessage, title, message){
-        console.log($('.messagePopUp-header')[0].innerHTML);
+
          $(".messagePopUp").css("display", "block");
          switch (typeOfMessage) {
             case 'accepted':
@@ -162,9 +165,6 @@ $(document).ready(function(){
         }
     }
 
-    $('#messagePopUpBtn').click(function() {
-        location.reload();
-    });
 });
 
 

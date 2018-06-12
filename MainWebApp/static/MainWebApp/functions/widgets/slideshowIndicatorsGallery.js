@@ -1,5 +1,4 @@
-var currentGalleryItemSelected = 1;
-
+    var currentGalleryItemSelected = 1;
 
     function galleryViewItemBtnChange(n){
             refreshGalleryView(currentGalleryItemSelected += n);
