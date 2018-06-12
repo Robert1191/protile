@@ -132,6 +132,18 @@
       float:right;
       text-align: right;
     }
+
+    #scrollTopBtn{
+        position: fixed;
+        right: 60px;
+        bottom: 60px;
+        padding: 8px 8px;
+        border-radius: 20px;
+        color: #1476c1;
+        border: none;
+        background: #babbbc;
+        visibility:hidden;
+    }
 }
 
 
@@ -173,6 +185,7 @@
         top: 120px;
         width:100%
     }
+
 
 }
 
@@ -247,6 +260,10 @@
         margin-right:25px;
     }
 
+    #scrollTopBtn{
+        right: 25px;
+        bottom: 25px;
+    }
 }
 
 /*This style is for devices with screen width is up to 500px*/
@@ -302,6 +319,11 @@
 
     .mainMenuBar hr{
         width: calc(100% - 20px) !important;
+    }
+
+    #scrollTopBtn{
+        right: 10px;
+        bottom: 10px;
     }
 }
 

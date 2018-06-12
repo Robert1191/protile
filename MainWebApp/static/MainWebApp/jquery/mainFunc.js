@@ -125,12 +125,10 @@ $(document).ready(function(){
     }
 
 
-
-
     /*Create Functions*/
 
     function createSlideshowIndicatorsGallery(title, min, max){
-       
+
         if(title == ""){
             $('.galleryTitle').css("display", "none");
         }else{
@@ -166,6 +164,20 @@ $(document).ready(function(){
               break;
         }
     }
+
+
+    $(window).scroll(function(){
+        if ($(this).scrollTop() > 200) {
+            $('#scrollTopBtn').css("visibility","visible");
+        }else {
+            $('#scrollTopBtn').css("visibility","hidden");
+        }
+    });
+
+    $('#scrollTopBtn').click(function(e){
+        $('html, body').animate({scrollTop : 0},800);
+        return false;
+    });
 
 });
 
