@@ -1,0 +1,304 @@
+/*----------------------------------------------------------------------------------------------------------------------------------------------*/
+/*----------------------------------------------------------------------------------------------------------------------------------------------*/
+/*-------------------------------------------------------------COMMON USE SECTIONS--------------------------------------------------------------*/
+/*----------------------------------------------------------------------------------------------------------------------------------------------*/
+/*----------------------------------------------------------------------------------------------------------------------------------------------*/
+
+@media screen and (min-width: 20px) {
+
+    .h1, .h2, .h3, .h4, .h5, .h6, p, input, textarea, a, .submitBtn, .messagePopUp-header h2, ::placeholder{
+            font-family: Candara;
+            color: #252122;
+    }
+
+    .h1, .slideshowIndicatorBtn {font-size:36px;}
+    .h2, .messagePopUp-header h2{font-size:30px;}
+    .h3{font-size:24px;}
+    .h4, input, textarea, .buttonSection a{font-size:20px;}
+    .h5, p, .submitBtn {font-size:18px;}
+    .h6{font-size:16px;}
+
+    ::placeholder{
+        color: #9c9c9c;
+        visibility:hidden;
+    }
+
+    .loadingBackground, #hiddenLayer{
+            position:fixed;
+            width:100%;
+            height:100%;
+            background: #0000004a;
+            z-index: 2;
+            top: 0px;
+            text-align: center;
+            visibility: hidden;
+    }
+
+    #hiddenMenuButton, #hiddenMenuButton:hover, #closeMenuButton, #closeMenuButton:hover {
+        cursor: pointer;
+        position: absolute;
+        top: 0px;
+        background: #ffffff00;
+        border-color: #ffffff00;
+        color: #1476c1;
+        font-size: 20px;
+        width:60px;
+        height:100%;
+        display: grid;
+        align-items: center;
+    }
+
+
+    #hiddenMenuButton, #hiddenMenuButton:hover {
+        left: 0px;
+    }
+
+    #closeMenuButton, #closeMenuButton:hover {
+        right: 0px;
+    }
+
+
+    .mainBtn:hover, .mainBtnSelected{
+        background: #1476c1;
+        color:white;
+    }
+
+
+    .mainMenuBar hr{
+        border-bottom: solid #1476c1;
+        border-width: 1px;
+        width: calc(100% - 120px);
+    }
+
+    .mainMenuBar, .responsiveMainMenuBar, .footer {
+        background: #fdfdfd;
+    }
+
+    .mainMenuBar, .responsiveMainMenuBar{
+        position: fixed;
+        z-index: 1;
+        top: 0;
+        height: 120px;
+        width: 100%;
+        left: 0;
+    }
+
+    .logoSection{
+        text-align: center;
+    }
+
+    .logoSection, .responsiveLogoSection{
+        height:100%;
+        width:300px;
+        margin-left: 60px;
+        float: left;
+    }
+
+    .logoSection a img, .responsiveLogoSection a img{
+        width: 100%;
+        height: 100%;
+    }
+
+    .buttonSection a{
+        text-align: center;
+        text-decoration: none;
+    }
+
+     .mainContent{
+        height: auto !important;
+        position: absolute;
+        width:100%;
+    }
+
+    .contentDetail{
+        top: 0;
+        bottom: 100px;
+        margin-left: 60px;
+        margin-right: 60px;
+    }
+
+}
+
+
+
+/*----------------------------------------------------------------------------------------------------------------------------------------------*/
+/*----------------------------------------------------------------------------------------------------------------------------------------------*/
+/*-------------------------------------------------------------RESPONSIVE SECTIONS--------------------------------------------------------------*/
+/*----------------------------------------------------------------------------------------------------------------------------------------------*/
+/*----------------------------------------------------------------------------------------------------------------------------------------------*/
+
+/*This style is for devices with screen width is larger than 1026px*/
+/*Suitable devices are desktop or tablets in landscape mode */
+
+@media screen and (min-width: 1000px) {
+
+    #hiddenMenuButton, #closeMenuButton{
+        visibility: hidden;
+    }
+
+    .buttonSection{
+        float: right;
+        margin-top: 10px;
+        height: 100px;
+        margin-right: 60px;
+    }
+
+    .buttonSection a{
+        width: 130px;
+        display: table-cell;
+        height: 100px;
+        vertical-align: middle;
+    }
+
+    .responsiveMainMenuBar{
+        display:none;
+    }
+
+     .mainContent{
+        top: 120px;
+        width:100%
+    }
+
+}
+
+
+/*This style is for devices with screen width is up to 1025px*/
+/*Suitable devices are tablets */
+@media screen and (max-width: 999px) {
+
+    .h1, .slideshowIndicatorBtn {font-size:34px;}
+    .h2, .messagePopUp-header h2{font-size:28px;}
+    .h3{font-size:22px;}
+    .h4, input, textarea, .buttonSection a{font-size:20px;}
+    .h5, p, .submitBtn {font-size:16px;}
+    .h6{font-size:14px;}
+
+    .mainMenuBar .buttonSection{
+        display:none;
+    }
+
+    .mainMenuBar, .closeMenuButtonSection{
+        position:absolute;
+        height:72px;
+    }
+
+    .logoSection{
+        width: calc(100% - 60px);
+        right:0px;
+    }
+
+    .logoSection a img, .responsiveLogoSection a img{
+        width: 180px;
+        height: 100%;
+    }
+
+    .logoSection a img{
+        margin-left: -60px;
+    }
+
+    .responsiveMainMenuBar{
+        height: 100%;
+        width: 400px;
+        left: -400px;
+        z-index:3;
+        -webkit-transition: left 0.2s;
+    }
+    .closeMenuButtonSection{
+        width:100%;
+    }
+    .buttonSection{
+        width:100%;
+        height: auto !important;
+        margin-top:72px;
+    }
+
+    .buttonSection a{
+        width: 100%;
+        display: block;
+        font-size: 22px;
+        line-height: 72px;
+    }
+
+    .mainContent{
+        top: 72px;
+    }
+
+    .contentDetail{
+        margin-left:25px;
+        margin-right:25px;
+    }
+
+}
+
+/*This style is for devices with screen width is up to 500px*/
+/*Suitable devices are mobile phone*/
+@media screen and (max-width: 500px) {
+
+    .h1, .slideshowIndicatorBtn {font-size:30px;}
+    .h2, .messagePopUp-header h2{font-size:24px;}
+    .h3{font-size:18px;}
+    .h4, input, textarea, .buttonSection a{font-size:16px;}
+    .h5, p, .submitBtn{font-size:12px;}
+    .h6{font-size:10px;}
+
+    ::placeholder{
+        visibility:visible;
+    }
+
+    .responsiveMainMenuBar{
+        width: 100%;
+        left: -100%;
+    }
+
+    .mainMenuBar, .closeMenuButtonSection{
+        height:48px;
+    }
+
+    .logoSection a img, .responsiveLogoSection a img{
+        width: 120px;
+    }
+
+    #hiddenMenuButton, #hiddenMenuButton:hover, #closeMenuButton, #closeMenuButton:hover {
+        font-size: 18px;
+        width:48px;
+    }
+    #hiddenMenuButton, #hiddenMenuButton:hover{
+        display: flex;
+    }
+
+    .buttonSection a{
+        font-size: 18px;
+        line-height: 48px;
+    }
+
+    .mainContent{
+        top: 48px;
+    }
+
+    .contentDetail{
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+
+
+    .mainMenuBar hr{
+        width: calc(100% - 20px);
+    }
+}
+
+/*@media screen and (max-width: 500px) {
+    .contentDetail{
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+}
+
+@media screen and (max-height: 1023px) {
+    .mainMenuBar{
+        height: 1024px;
+        overflow-y: auto;
+        position: absolute;
+    }
+
+}*/
+

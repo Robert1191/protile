@@ -103,7 +103,7 @@ $(document).ready(function(){
                 success: function(response) {
                     $('.loadingBackground').css("visibility", "hidden");
                     if (response == "success"){
-                        createPopUpMessage("accepted","Message sent successfully","Thank you very for getting in touch with us.\nWe are trying to get back to you as soon as possible.");
+                        createPopUpMessage("accepted","Message sent successfully","Thank you very much for getting in touch with us.\nWe are trying to get back to you as soon as possible.");
                     }else{
                         createPopUpMessage("failed","Message failed to send","We are sorry that we can not process your message right now.\nPlease try again later.");
                     }
@@ -146,17 +146,18 @@ $(document).ready(function(){
 
     /* Other function*/
     function createPopUpMessage(typeOfMessage, title, message){
-         $(".modal").css("display", "block");
+        console.log($('.messagePopUp-header')[0].innerHTML);
+         $(".messagePopUp").css("display", "block");
          switch (typeOfMessage) {
             case 'accepted':
-              $('.modal-header')[0].innerHTML = "<h2>" + title + "</h2>";
-              $('.modal-body')[0].innerHTML = "<p>" + message.replace("\n", "</p><p>") + "</p>";
-              $('.modal-header').css("background-color", "#44A19F");
+              $('.messagePopUp-header')[0].innerHTML = "<h2>" + title + "</h2>";
+              $('.messagePopUp-body')[0].innerHTML = "<p>" + message.replace("\n", "</p><p>") + "</p>";
+              $('.messagePopUp-header').css("background-color", "#44A19F");
               break;
             case 'failed':
-              $('.modal-header')[0].innerHTML = "<h2>" + title + "</h2>";
-              $('.modal-body')[0].innerHTML = "<p>" + message.replace("\n", "</p><p>") + "</p>";
-              $('.modal-header').css("background-color", "#D95456");
+              $('.messagePopUp-header')[0].innerHTML = "<h2>" + title + "</h2>";
+              $('.messagePopUp-body')[0].innerHTML = "<p>" + message.replace("\n", "</p><p>") + "</p>";
+              $('.messagePopUp-header').css("background-color", "#D95456");
               break;
         }
     }

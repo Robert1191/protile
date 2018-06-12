@@ -1,7 +1,6 @@
 {% extends "MainWebApp/mainMenu.html" %}
 
 {% block content %}
-{% load staticfiles %}
 <div class="contentDetail" >
     <!--<h1>LIÊN LẠC</h1>-->
 
@@ -81,5 +80,6 @@
     </div>
 </div>
 
-
+{% load staticfiles %}
+<link rel="stylesheet" href="{% static 'MainWebApp/css/pages/contact.css' %}">
 {% endblock %}

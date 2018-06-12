@@ -1,15 +1,18 @@
-<div class="modal" >
+<div class="messagePopUp modal" >
   <!-- Modal content -->
-  <div class="modal-content">
-    <div class="modal-header" >
+  <div class="messagePopUp-content modal-content">
+    <div class="messagePopUp-header modal-header" >
       <h2 class="h2">Title</h2>
     </div>
-    <div class="modal-body">
+    <div class="messagePopUp-body  modal-body">
       <p>Body</p>
     </div>
-    <div class="modal-footer">
+    <div class="messagePopUp-footer  modal-footer">
       <button id="messagePopUpBtn" class="submitBtn" type="submit" style="position:unset;background:#d95456;width: 50px !important;">OK</button>
     </div>
   </div>
 
 </div>
+
+{% load staticfiles %}
+<link rel="stylesheet" href="{% static 'MainWebApp/css/widgets/messagePopUp.css' %}">
