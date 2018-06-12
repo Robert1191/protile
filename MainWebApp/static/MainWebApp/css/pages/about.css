@@ -1,0 +1,106 @@
+/*----------------------------------------------------------------------------------------------------------------------------------------------*/
+/*----------------------------------------------------------------------------------------------------------------------------------------------*/
+/*-------------------------------------------------------------COMMON USE SECTIONS--------------------------------------------------------------*/
+/*----------------------------------------------------------------------------------------------------------------------------------------------*/
+/*----------------------------------------------------------------------------------------------------------------------------------------------*/
+
+@media screen and (min-width: 20px) {
+    .aboutDetails{
+        margin: auto;
+        width: 80%;
+        position: relative;
+        text-align: center;
+     }
+
+    .aboutDetails > *{
+        margin-top:60px !important;
+     }
+
+    .aboutDetails hr{
+        margin-top:0px !important;
+     }
+
+     .staffDetails{
+        margin-bottom:60px;
+        display: table;
+     }
+
+     .staffDetails, .staffDetails > *{
+        width:100%;
+        height:auto!important;
+
+     }
+
+     .staffPhoto{
+        width:28% !important;
+        float:left;
+        text-align: right;
+     }
+      .staffPhoto img{
+        width:100%;
+      }
+
+     .staffInformation{
+        width:68% !important;
+        float:right;
+        text-align: left;
+     }
+
+}
+
+
+/*----------------------------------------------------------------------------------------------------------------------------------------------*/
+/*----------------------------------------------------------------------------------------------------------------------------------------------*/
+/*-------------------------------------------------------------RESPONSIVE SECTIONS--------------------------------------------------------------*/
+/*----------------------------------------------------------------------------------------------------------------------------------------------*/
+/*----------------------------------------------------------------------------------------------------------------------------------------------*/
+
+
+/*This style is for devices with screen width is larger than 1026px*/
+/*Suitable devices are desktop or tablets in landscape mode */
+
+@media screen and (max-width: 1500px) {
+    .aboutDetails{
+        width: 90%;
+     }
+
+}
+
+@media screen and (max-width: 1100px) {
+    .aboutDetails{
+        width: 100%;
+     }
+
+}
+
+/*This style is for devices with screen width is up to 1025px*/
+/*Suitable devices are tablets */
+@media screen and (max-width: 999px) {
+
+
+}
+
+/*This style is for devices with screen width is up to 500px*/
+/*Suitable devices are mobile phone */
+@media screen and (max-width: 500px) {
+
+    .staffPhoto, .staffInformation{
+        width:100% !important;
+     }
+}
+
+/*@media screen and (max-width: 500px) {
+    .contentDetail{
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+}
+
+@media screen and (max-height: 1023px) {
+    .mainMenuBar{
+        height: 1024px;
+        overflow-y: auto;
+        position: absolute;
+    }
+
+}*/
