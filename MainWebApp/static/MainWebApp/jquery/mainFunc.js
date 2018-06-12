@@ -50,7 +50,7 @@ $(document).ready(function(){
    /* Switch page function*/
     switch ($.trim($("#hiddenCurrentUrl").text())) {
         case '/':
-          changePageTitle("Home - Protile")
+          index();
           break;
 
         case '/about/':
@@ -74,7 +74,9 @@ $(document).ready(function(){
     function index(e){
 
         /* Change page titles and background*/
-        changePageTitle("Home - Protile")
+        changePageTitle("Home - Protile");
+
+        createSlideshowIndicatorsGallery("Gallery of works", 1 , 3);
     }
 
     /* About page function*/
@@ -128,7 +130,7 @@ $(document).ready(function(){
     /*Create Functions*/
 
     function createSlideshowIndicatorsGallery(title, min, max){
-
+       
         if(title == ""){
             $('.galleryTitle').css("display", "none");
         }else{

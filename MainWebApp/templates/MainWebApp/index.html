@@ -3,7 +3,81 @@
 {% block content %}
 {% load staticfiles %}
 <div class="contentDetail">
- <h1 class="h1">Index page is under construction</h1>
+
+ <div class="aboutDetails" >
+      <h1 class="h1">We are registered company specialising in Wall and Floor Tiling in Auckland</h1>
+     <hr>
+      <div class="staffDetails">
+         <div class="staffPhoto">
+             <img src="{% static 'MainWebApp/images/staff1.jpg' %}" >
+             <h2 class="h2">Jimmy Nguyen</h2>
+             <h4 class="h4">CEO</h4>
+         </div>
+
+         <div class="staffInformation">
+
+           <p>I have extensive tiling experience for over 15 years.
+            I’ve been tiling residential homes and fulfilling corporate level tiling jobs throughout Canada and New Zealand.
+            You can be confident that your tiling project will not only look great but would also last for many years to come.
+            I am up to date with the latest trends and industry standards that will help you expand your creativity.
+            I take pride in laying these tiles and consider them more than just a means of decoration, but also an art work and a form of expression.</p>
+
+          <p>I am reliable, hardworking and approachable. I pay attention to the smallest details.
+                I know how just one misaligned tile can ruin the whole project and fixing these can be really expensive.
+                Never settle for non-professional installers because you may just end up doubling the cost of the project.
+                Cutting corners will only do more harm than good.</p>
+         </div>
+
+      </div>
+
+      <div class="staffDetails">
+         <div class="staffPhoto">
+             <img src="{% static 'MainWebApp/images/staff2.jpg' %}" >
+             <h2 class="h2">Anita Nguyen</h2>
+             <h4 class="h4">Founder</h4>
+         </div>
+
+         <div class="staffInformation">
+
+           <p>Anita is the one in charge with administrative tasks.
+            She is the person you get in contact with through email and will gladly answer any of your related project questions and schedules quotes.</p>
+
+          <p>Anita welcomes positive and constructive feedback, so please do not hesitate to get in touch with your suggestions and comments.
+           She is passionate about the quality of the customer experience, and aims to ensure each person who comes into contact with Jimmy LTD is listened to.</p>
+
+               <p>She is a valued member of the administration and essential to the smooth running of the business.</p>
+         </div>
+
+      </div>
+ </div>
+
+<div class="serviceDetails">
+  <h4 class="h4">Are you looking for a more affordable way to replace your carpeting with durable, easy-to-clean tiles? We can bring your kitchen, bathroom, and any tile project designs to life.
+   Our goal is to take your vision and make it a reality by offering a trust worthy, honest and reliable service.</h4>
+
+  <div class="serviceList " >
+      <h1 class="h1">We are experienced in installation in</h1>
+
+   <ul class="left">
+       <li class="h3">&#x2714; Bathroom</li>
+       <li class="h3">&#x2714; Kitchens</li>
+       <li class="h3">&#x2714; Hallways</li>
+     </ul>
+
+    <ul class="right" style="text-align:left">
+       <li class="h3">&#x2714; Porches</li>
+       <li class="h3">&#x2714; Conservatory</li>
+     </ul>
+  </div>
+
+
+  <h4 class="h4">I take the time to make sure the little things are done right because it’s the fine details that make all the difference on the finished project.
+   I do high end commercial or residential projects using top quality materials and proudly service all customers within a 100 km radius of Auckland.</h4>
+ </div>
+ {% include "MainWebApp/widgets/slideshowIndicatorsGallery.html" %}
 </div>
 
+
+<link rel="stylesheet" href="{% static 'MainWebApp/css/pages/about.css' %}">
+<link rel="stylesheet" href="{% static 'MainWebApp/css/pages/service.css' %}">
 {% endblock %}
