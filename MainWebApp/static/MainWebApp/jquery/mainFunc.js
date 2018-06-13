@@ -166,7 +166,7 @@ $(document).ready(function(){
     }
 
 
-    $(window).scroll(function(){
+    /*$(window).scroll(function(){
         if ($(this).scrollTop() > 200) {
             $('#scrollTopBtn').css("visibility","visible");
         }else {
@@ -177,7 +177,7 @@ $(document).ready(function(){
     $('#scrollTopBtn').click(function(e){
         $('html, body').animate({scrollTop : 0},800);
         return false;
-    });
+    });*/
 
 });
 
